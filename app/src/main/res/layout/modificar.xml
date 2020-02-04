@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".modificar"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+
+    <EditText
+        android:id="@+id/id_producto"
+        android:hint="Ingresar id:"
+        android:inputType="number"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="27dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/buscar"
+        android:text="BUSCAR"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/boton"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/descripcion"
+        android:hint="Descripcion de producto"
+        android:layout_width="240dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/precio_pro"
+        android:hint="Precio del producto"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_modificar"
+        android:layout_width="145dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/boton"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="MODIFICAR"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

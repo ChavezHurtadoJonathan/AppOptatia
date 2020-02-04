@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".eliminar"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+
+        <EditText
+            android:id="@+id/id_pro"
+            android:hint="Ingresar id:"
+            android:inputType="number"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="27dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/buscar_pro"
+            android:text="BUSCAR"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/boton"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:layout_width="110dp"
+            android:textSize="20dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/descripcion_pro"
+        android:hint="Descripcion de producto"
+        android:layout_width="240dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/precio_prod"
+        android:hint="Precio del producto"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_eliminar"
+        android:layout_width="125dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/boton"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="ELIMINAR"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
